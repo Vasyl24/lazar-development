@@ -1,0 +1,84 @@
+@import '../node_modules/modern-normalize/modern-normalize.css';
+
+@font-face {
+  font-family: 'Unbounded-Light';
+  src: local('Unbounded-Light'), url(./assets/fonts/Unbounded-Light.ttf),
+    format('truetype');
+}
+
+@font-face {
+  font-family: 'Unbounded-Regular';
+  src: local('Unbounded-Regular'), url(./assets/fonts/Unbounded-Regular.ttf),
+    format('truetype');
+}
+
+:root {
+  --background-color: #151515;
+  --secondary-background-color: #ffffff;
+  --text-color: #ffffff;
+  --secondary-text-color: #b3b3b3;
+  --black-text-color: #000000;
+  --btn-text-color: #c6c6c6;
+  --grey: #555555;
+  --light-grey: #c2c2c2;
+  --input: #7c7c7c;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--text-color);
+  font-family: 'Unbounded-Light', sans-serif;
+  background-color: var(--background-color);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+input {
+  font-family: inherit;
+  outline: none;
+}
