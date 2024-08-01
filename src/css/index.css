@@ -2,13 +2,13 @@
 
 @font-face {
   font-family: 'Unbounded-Light';
-  src: local('Unbounded-Light'), url(./assets/fonts/Unbounded-Light.ttf),
+  src: local('Unbounded-Light'), url(../../assets/Unbounded-Light.ttf),
     format('truetype');
 }
 
 @font-face {
   font-family: 'Unbounded-Regular';
-  src: local('Unbounded-Regular'), url(./assets/fonts/Unbounded-Regular.ttf),
+  src: local('Unbounded-Regular'), url(../../assets/Unbounded-Regular.ttf),
     format('truetype');
 }
 
