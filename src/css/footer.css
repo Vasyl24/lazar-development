@@ -1,0 +1,16 @@
+.footer-container {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  background-color: var(--secondary-background-color);
+}
+
+.footer-text {
+  color: var(--light-grey);
+  font-size: 14px;
+  font-weight: 250;
+  line-height: calc(16 / 14);
+}
+
+.footer-text-item:nth-child(1) {
+  margin-bottom: 15px;
+}

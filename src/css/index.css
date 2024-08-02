@@ -1,4 +1,5 @@
 @import '../../node_modules/modern-normalize/modern-normalize.css';
+@import './main.css';
 
 @font-face {
   font-family: 'Unbounded-Light';
@@ -14,8 +15,8 @@
 
 :root {
   --background-color: #151515;
-  --secondary-background-color: #ffffff;
   --text-color: #ffffff;
+  --secondary-background-color: #ffffff;
   --secondary-text-color: #b3b3b3;
   --black-text-color: #000000;
   --btn-text-color: #c6c6c6;
@@ -81,4 +82,16 @@ button {
 input {
   font-family: inherit;
   outline: none;
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1240px) {
+  .main-container {
+    width: 1200px;
+  }
 }

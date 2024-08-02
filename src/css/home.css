@@ -1,0 +1,129 @@
+.hero-section {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.hero-title {
+  margin-bottom: 15px;
+
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.hero-subTitle {
+  margin-bottom: 20px;
+
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.hero-text-list {
+  margin-bottom: 15px;
+}
+
+.hero-text-item {
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: calc(27 / 14);
+}
+
+.barcelona-logo {
+  width: 200px;
+  height: 53px;
+  margin-bottom: 15px;
+}
+
+/* ABOUT SECTION */
+
+.about-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: var(--secondary-background-color);
+}
+
+.about-title {
+  margin-bottom: 20px;
+
+  color: var(--black-text-color);
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.about-btn-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+
+  overflow-y: scroll;
+}
+
+.about-btn {
+  width: 212px;
+  height: 40px;
+  padding: 12px 5px;
+  border: 1px solid var(--btn-text-color);
+
+  color: var(--btn-text-color);
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.about-img {
+  margin-bottom: 10px;
+}
+
+.about-text {
+  color: var(--black-text-color);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+/* CONTACT SECTION */
+
+.contact-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: var(--secondary-background-color);
+}
+
+.contact-logo {
+  fill: var(--background-color);
+  stroke: var(--background-color);
+  width: 157px;
+  height: 55px;
+  margin-bottom: 40px;
+}
+
+.contact-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.contact-subTitle {
+  margin-bottom: 10px;
+
+  color: var(--grey);
+  font-size: 14px;
+  font-weight: 250;
+}
+
+.contact-text {
+  color: var(--black-text-color);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.contact-text.tel {
+  margin-top: 10px;
+}

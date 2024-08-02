@@ -1,0 +1,57 @@
+.header-conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+.header-section {
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(13.5px);
+}
+
+.logo-header {
+  width: 72px;
+  height: 25px;
+  /* margin-right: 35px; */
+}
+
+@media screen and (max-width: 1239.98px) {
+  .header-nav-list {
+    display: none;
+  }
+
+  .select-lang {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .burger-btn {
+    display: none;
+  }
+}
+
+.burger-btn {
+  width: 25px;
+  height: 15px;
+}
+
+.contactUs-btn {
+  width: 171px;
+  height: 30px;
+  padding: 7px 8px;
+  /* margin-right: 35px; */
+  border: 1px solid var(--text-color);
+
+  color: var(--text-color);
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+/* .select-lang {
+display: none;
+} */
