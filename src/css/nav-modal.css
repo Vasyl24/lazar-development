@@ -1,0 +1,41 @@
+.nav-modal-container {
+  position: absolute;
+  top: 46;
+
+  width: 100vw;
+  height: 100vh;
+  padding: 40px 20px;
+
+  background-color: var(--background-color);
+  z-index: 10;
+}
+
+.mob-menu-text-list {
+  margin-bottom: 170px;
+}
+
+.mob-menu-text-item:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+.mob-menu-text {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.icon-building {
+  position: fixed;
+  bottom: 45;
+  right: 0;
+
+  overflow-y: scroll;
+  z-index: -1;
+
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
+
+  transition: opacity var(--main-transition), visibility var(--main-transition);
+}

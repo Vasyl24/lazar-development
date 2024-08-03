@@ -1,75 +1,77 @@
-<!DOCTYPE html>
-<html lang="uk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header class="header-section">
-      <svg>
-        <use href="../assets/images/sprite.svg#icon-logo"></use>
-      </svg>
+<section class="contact-page-section">
+  <div class="container">
+    <h1 class="contact-title">Контакти</h1>
 
-      <ul>
-        <li><p>Головна</p></li>
-        <li><p>Про нас</p></li>
-        <li><p>Проєкти</p></li>
-        <li><p>Контакти</p></li>
+    <ul>
+      <li class="contact-item">
+        <h3 class="contact-subTitle">Головний офіс</h3>
+        <p class="contact-text">м. Бориспіль вулиця Київський шлях 47</p>
+        <p class="contact-text tel">+380 97 099 02 20</p>
+      </li>
+      <li class="contact-item">
+        <h3 class="contact-subTitle">Відділ продажу</h3>
+        <p class="contact-text">+380 68 099 02 20</p>
+      </li>
+      <li class="contact-item">
+        <h3 class="contact-subTitle">Продаж будівельних матеріалів</h3>
+        <p class="contact-text">+380 68 099 02 20</p>
+      </li>
+      <li class="contact-item">
+        <h3 class="contact-subTitle">Адреса будинку</h3>
+        <p class="contact-text">м. Бориспіль вулиця Стадіонна 2а</p>
+      </li>
+      <li class="contact-item">
+        <h3 class="contact-subTitle">Пошта</h3>
+        <p class="contact-text">lazardevelopment2023@gmail.com</p>
+      </li>
+    </ul>
+  </div>
+</section>
 
-        <button>Зв’язатися з нами</button>
+<section class="form-section">
+  <div class="container">
+    <h2 class="form-title">Замовити консультацію</h2>
 
-        <select name="lang" id="">
-          <option value="UA" selected>UA</option>
-          <option value="EN">EN</option>
-        </select>
-      </ul>
-    </header>
-    <main>
-      <section class="contact-section">
-        <h1>Контакти</h1>
+    <form action="">
+      <input type="text" class="form-input" placeholder="Ім’я" />
+      <input type="tel" class="form-input" placeholder="Телефон" />
+      <input
+        type="email"
+        name=""
+        id=""
+        class="form-input"
+        placeholder="Email"
+      />
 
-        <ul>
-          <li>
-            <h3>Головний офіс</h3>
-            <p>м. Бориспіль вулиця Київський шлях 47</p>
-            <p>+380 97 099 02 20</p>
-          </li>
-          <li>
-            <h3>Відділ продажу</h3>
-            <p>+380 68 099 02 20</p>
-          </li>
-          <li>
-            <h3>Продаж будівельних матеріалів</h3>
-            <p>+380 68 099 02 20</p>
-          </li>
-          <li>
-            <h3>Адреса будинку</h3>
-            <p>м. Бориспіль вулиця Стадіонна 2а</p>
-          </li>
-          <li>
-            <h3>Пошта</h3>
-            <p>lazardevelopment2023@gmail.com</p>
-          </li>
-        </ul>
+      <button type="submit" class="form-btn">
+        Подати заявку
+        <svg class="arrow-icon">
+          <use href="../assets/images/sprite.svg#icon-arrow"></use>
+        </svg>
+      </button>
+    </form>
+  </div>
+</section>
 
-        <h2>Замовити консультацію</h2>
+<section class="socNetworks-section">
+  <div class="container socNetworks-container">
+    <h2 class="socNetworks-title">Підписуйся на наш:</h2>
 
-        <form action="">
-          <input type="text" />
-          <input type="tel" />
-          <input type="email" name="" id="" />
-
-          <button type="submit">Подати заявку</button>
-        </form>
-      </section>
-    </main>
-
-    <footer>
-      <ul>
-        <li><p>Політика конфіденційності</p></li>
-        <li><p>© 2023 lazar. Всі права захищені.</p></li>
-      </ul>
-    </footer>
-  </body>
-</html>
+    <ul class="socNetworks-list">
+      <li class="socNetworks-item">
+        <a href="#">
+          <svg class="socNetworks-icon">
+            <use href="../assets/images/sprite.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="socNetworks-item">
+        <a href="#">
+          <svg class="socNetworks-icon">
+            <use href="../assets/images/sprite.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
