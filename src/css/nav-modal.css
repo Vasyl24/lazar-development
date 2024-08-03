@@ -1,5 +1,5 @@
 .nav-modal-container {
-  position: absolute;
+  position: fixed;
   top: 46;
 
   width: 100vw;
@@ -7,7 +7,15 @@
   padding: 40px 20px;
 
   background-color: var(--background-color);
+  overflow-y: scroll;
+
   z-index: 10;
+
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
+
+  transition: opacity var(--main-transition), visibility var(--main-transition);
 }
 
 .mob-menu-text-list {
@@ -26,16 +34,15 @@
 }
 
 .icon-building {
-  position: fixed;
+  position: absolute;
   bottom: 45;
   right: 0;
 
-  overflow-y: scroll;
   z-index: -1;
+}
 
-  visibility: hidden;
-  pointer-events: none;
-  opacity: 0;
-
-  transition: opacity var(--main-transition), visibility var(--main-transition);
+.is-open {
+  visibility: visible;
+  pointer-events: visible;
+  opacity: 1;
 }
