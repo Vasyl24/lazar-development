@@ -14,3 +14,26 @@
 .footer-text-item:nth-child(1) {
   margin-bottom: 15px;
 }
+
+@media screen and (min-width: 1240px) {
+  .footer-container {
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .footer-text-list {
+    position: absolute;
+    bottom: 60px;
+    display: flex;
+    gap: 276px;
+  }
+
+  .footer-text {
+    font-size: 16px;
+    line-height: calc(16 / 16);
+  }
+
+  .footer-text-item:nth-child(1) {
+    margin-bottom: 0px;
+  }
+}

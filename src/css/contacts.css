@@ -1,6 +1,6 @@
 .contact-page-section {
   padding-top: 50px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
   background-color: var(--secondary-background-color);
 }
 
@@ -15,6 +15,7 @@
 
 .form-section {
   background-color: var(--secondary-background-color);
+  padding-top: 40px;
   padding-bottom: 30px;
 }
 
@@ -75,7 +76,6 @@
 }
 
 .socNetworks-section {
-  padding-bottom: 30px;
   background-color: var(--secondary-background-color);
 }
 
@@ -100,4 +100,105 @@
 .socNetworks-icon {
   width: 30px;
   height: 30px;
+}
+
+@media screen and (min-width: 1240px) {
+  .contact-page-section {
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 160px;
+  }
+
+  .contact-title {
+    margin-bottom: 70px;
+    font-size: 40px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 100px;
+  }
+
+  .grid-item-1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+  }
+
+  .grid-item-2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .grid-item-3 {
+    margin-bottom: 0;
+    margin-top: auto;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .form-section {
+    padding: 0;
+  }
+
+  .form-title {
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .form-input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 18px;
+    padding-bottom: 15px;
+    border: 1px solid #d6d6d6;
+
+    color: var(--input);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .form-input:not(:last-of-type) {
+    margin-bottom: 20px;
+  }
+
+  .form-input:last-of-type {
+    margin-bottom: 30px;
+  }
+
+  .form-btn {
+    width: 273px;
+    height: 44px;
+    font-size: 16px;
+  }
+
+  .arrow-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .socNetworks-section {
+    padding-bottom: 0px;
+  }
+
+  .socNetworks-title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .contact-page-section::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 10%;
+    top: 92px;
+    height: 1px;
+    background-color: var(--background-color);
+  }
 }
